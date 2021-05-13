@@ -1,0 +1,26 @@
+{
+    "name": "simplyunnamed/attenshun",
+    "description": "SeAT package to ping for attenshun!",
+    "type": "seat-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simply Unnamed",
+            "email": "lgullestrup@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SimplyUnnamed\\Seat\\Attenshun\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimplyUnnamed\\Seat\\Attenshun\\AttenshunServiceProvider"
+            ]
+        }
+    }
+}
